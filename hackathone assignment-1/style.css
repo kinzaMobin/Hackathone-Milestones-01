@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+.resume-container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(114, 216, 216, 0.2);
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-section {
+    width: 30%;
+    background-color: #247c80;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    margin-bottom: 15px;
+
+}
+
+.left-section h3 {
+    border-bottom: 2px solid rgb(141, 19, 19);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.left-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.right-section {
+    width: 70%;
+    padding: 20px;
+    background: antiquewhite;
+}
+
+.right-section h1 {
+    font-size: 24px;
+    color: #642d2d;
+    margin-bottom: 15px;
+    
+}
+
+.right-section section {
+    margin-bottom: 20px;
+
+}
+.right-section h3 {
+    color: #43176b;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2d3e50;
+    padding-bottom: 5px;
+}
+
+.right-section p, .right-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.right-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+#toggle-skills {
+    padding: 10px 20px;
+    background-color: #236092;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggle-skills:hover {
+    background-color: #3d7774;
+}
